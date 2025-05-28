@@ -1,4 +1,4 @@
-#### Optical Spectra
+### Optical Spectra
 
 Files containing the SDSS (and BOSS) spectra of NGC 5486 are stored in .fits files with the following naming convention:
 

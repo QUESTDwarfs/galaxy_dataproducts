@@ -1,4 +1,4 @@
-#### Optical Spectra
+### Optical Spectra
 
 Files containing the SDSS (and BOSS) spectra of UGC 7827 are stored in .fits fil
 es with the following naming convention:

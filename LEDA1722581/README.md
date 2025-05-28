@@ -1,4 +1,4 @@
-#### Optical Spectra
+### Optical Spectra
 
 Files containing co-added 1D spectra from MaNGA cube for LEDA 1722581 and the H$\alpha$-identified clump to the west end in \_MaNGAspec.txt.
 

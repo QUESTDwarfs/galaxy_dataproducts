@@ -1,4 +1,4 @@
-#### Optical Spectra
+### Optical Spectra
 
 Files containing the SDSS spectra of UGC 5427 are stored in .fits files with the following naming convention:
 
