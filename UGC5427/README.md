@@ -24,5 +24,7 @@ err = 1e-17/np.sqrt(spec[1].data['ivar'])
 Each file corresponds to an independent specObjID:
 
 2195517795251283968 -- ugc5427_spec-1950-53436-0047
+
 12779137532475758592 -- ugc5427-spec-11350-58455-0631
+
 7283574696637126656 -- ugc5427-spec-6469-56328-0466
