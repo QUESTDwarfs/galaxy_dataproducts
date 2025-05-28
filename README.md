@@ -1,2 +1,4 @@
 # galaxy_dataproducts
-Reduced data products grouped by galaxy
+Reduced, analysis-ready data products grouped by galaxy.
+
+READMEs in each directory detail the contents.
