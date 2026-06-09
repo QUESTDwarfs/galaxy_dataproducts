@@ -28,3 +28,19 @@ Each file corresponds to an independent specObjID:
 7471477386187659264 -- ugc7827-spec-6636-56367-0020
 
 7470471882854389760 -- ugc7827-spec-6635-56370-0458
+
+
+### Ground-based Imaging
+
+PGC1818175_data.pkl includes the cropped image(s), mask(s), RMS image(s), and PSF(s) used in fitting the galaxy's integrated photometry, alongside the best fit model for both a single Sérsic and double Sérsic fit. 
+
+To open:
+
+```python
+import pickle
+
+with open('PGC1818175_data.pkl', 'rb') as pkl:
+    datdict = pickle.load(pkl)
+```
+
+The keys of `datdict` are then `img`, `mask`, `rms`, `psf`, `single_model`, and `double_model`. Each entry is then a dictionary with keys `g`, `r`, and `z` to access the data and models filter-by-filter.

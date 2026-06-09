@@ -28,3 +28,19 @@ Each file corresponds to an independent specObID:
 9488057877522569216 -- ngc5486_spec-8427-57846-0361
 
 1491909507004000256 -- ngc5486-spec-1325-52762-0335
+
+
+### Ground-based Imaging
+
+NGC5486_data.pkl includes the cropped image(s), mask(s), RMS image(s), and PSF(s) used in fitting the galaxy's integrated photometry, alongside the best fit model for both a single Sérsic and double Sérsic fit. 
+
+To open:
+
+```python
+import pickle
+
+with open('NGC5486_data.pkl', 'rb') as pkl:
+    datdict = pickle.load(pkl)
+```
+
+The keys of `datdict` are then `img`, `mask`, `rms`, `psf`, `single_model`, and `double_model`. Each entry is then a dictionary with keys `g`, `r`, and `z` to access the data and models filter-by-filter.
